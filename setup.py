@@ -115,9 +115,9 @@ def setupDevel():
                            os.system('cp hos/hos-analytic/%s hos/hos_devel/%s' % (file,file))
 
                       setup(
-                            name         = "HOS Analytic",
+                            name         = "CS Analytic",
                             version      = open('Version').read()[:-1],
-                            description  = "Utilities for analysing Higher Order Numerical Schemes",
+                            description  = "Utilities for Higher Order Conservative Schemes",
                             author       = "Jack Ogaja",
                             author_email = "jack.ogaja@gmail.com",
                             url          = "http://github.com/Jaecq",
