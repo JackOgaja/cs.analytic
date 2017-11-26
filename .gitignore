@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL / tox files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+/.tox/
+
+# My files
+clean_py_REF.txt
+versionUpddate.sh
+versionUpddate_REF.txt
+
+# Other files
+.DS_Store
+docs/.DS_Store
+hos-analytic/.DS_Store
+hos-analytic/utils/.DS_Store
+hos-analytic/.idea
+tests/.DS_Store
