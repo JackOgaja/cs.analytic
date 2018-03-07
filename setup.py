@@ -5,6 +5,8 @@
    Copyright (c) 2017 Jack Ogaja
    All Rights Reserved
 
+   See LICENSE for details.
+
    HOS Analytic:
     Set up the package for analysis of Higher Order Schemes.
 
