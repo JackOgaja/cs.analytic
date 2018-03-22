@@ -20,26 +20,26 @@ import os, sys, inspect
 
 class hosPlot:
     """
-    Attributes ->
-              labels:    legend labels
-              title:     plot title
-              styles:    plot styles
-              lwidth:    plot line width
-              legLoc:    legend location
-              savePlot:  option to save a plot to a file/dir
-              plotName:  plot name
-              plotDir:   plot directory/folder
-              outFormat: format of the output file |pdf/eps/png|
-              lblsize:   label fornt size
-              ttlsize:   title font size
-              ymin:      minimum y-axis limit
-              ymax:      maximum y-axis limit
-              xmin:      minimum x-axis limit
-              xmax:      maximum x-axis limit
-              ylabel:    y-axis label
-              xlabel:    x-axis label
-              lgframe:   legend box 'on' or 'off'
-              lgFontSize:legend font size
+    Attributes:
+    :labels     legend labels
+    :title      plot title
+    :styles     plot styles
+    :lwidth     plot line width
+    :legLoc     legend location
+    :savePlot   option to save a plot to a file/dir
+    :plotName   plot name
+    :plotDir    plot directory/folder
+    :outFormat  format of the output file |pdf/eps/png|
+    :lblsize    label fornt size
+    :ttlsize    title font size
+    :ymin       minimum y-axis limit
+    :ymax       maximum y-axis limit
+    :xmin       minimum x-axis limit
+    :xmax       maximum x-axis limit
+    :ylabel     y-axis label
+    :xlabel     x-axis label
+    :lgframe    legend box 'on' or 'off'
+    :lgFontSize legend font size
     """
 
     def __init__(self):

@@ -18,31 +18,29 @@ import math as mt
 class hosSymbolic:
     """
     Attributes:
-    c      => phase velocit
-    dx     => space interval
-    preC4a => first coefficient
-    preC4b => second coefficient
-    preS4a => first coefficient
-    preS4b => second coefficient
-    preS6a => third coefficient
-    preS6b => fourth coefficient
-    preS6c => fifth coefficient
+    :c       phase velocit
+    :dx      space interval
+    :preC4a  first coefficient
+    :preC4b  second coefficient
+    :preS4a  first coefficient
+    :preS4b  second coefficient
+    :preS6a  third coefficient
+    :preS6b  fourth coefficient
+    :preS6c  fifth coefficient
 
-    Phase errors:
-    omegaSeond      =>Symmetric Second order (QCHOS)
-    omegaSecondTrad =>Traditional Second order (HOS)
-    omegaFourth     =>Symmetric Fourth order (QCHOS)
-    omegaFourthTrad =>Traditional Fourth order (HOS)
-    omegaSixth      =>Symmetric Sixth order (QCHOS)
-    omegaSixthTrad  =>Traditional Sixth order (HOS)
+    :omegaSeond      Symmetric Second order (QCHOS)
+    :omegaSecondTrad Traditional Second order (HOS)
+    :omegaFourth     Symmetric Fourth order (QCHOS)
+    :omegaFourthTrad Traditional Fourth order (HOS)
+    :omegaSixth      Symmetric Sixth order (QCHOS)
+    :omegaSixthTrad  Traditional Sixth order (HOS)
 
-    Group velocity:
-    groupVSeond      =>Symmetric Second order (QCHOS)
-    groupVSecondTrad =>Traditional Second order (HOS)
-    groupVFourth     =>Symmetric Fourth order (QCHOS)
-    groupVFourthTrad =>Traditional Fourth order (HOS)
-    groupVSixth      =>Symmetric Sixth order (QCHOS)
-    groupVSixthTrad  =>Traditional Sixth order (HOS)
+    :groupVSeond      Symmetric Second order (QCHOS)
+    :groupVSecondTrad Traditional Second order (HOS)
+    :groupVFourth     Symmetric Fourth order (QCHOS)
+    :groupVFourthTrad Traditional Fourth order (HOS)
+    :groupVSixth      Symmetric Sixth order (QCHOS)
+    :groupVSixthTrad  Traditional Sixth order (HOS)
 
     """
 
