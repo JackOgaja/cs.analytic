@@ -139,8 +139,7 @@ class hosPlot:
             for key, value in kwargs.items():
                 if key == 'refLine':
                     refLine=True
-                    if value.__class__ == tuple:
-                    #if hasattr(value, '__iter__'):
+                    if isinstance(value, tuple):
                         refs=self.__evaluatereferenceLines(key,value)
                         (refValue, reflabel)=refs
                     else:
@@ -148,7 +147,7 @@ class hosPlot:
                         print('Key is:{0}, Value is:{1}'.format(key,value))
                 elif key == 'hLine':
                     hLine=True
-                    if value.__class__ == tuple:
+                    if isinstance(value, tuple):
                         refs=self.__evaluatereferenceLines(key,value)
                         print('REFS = {0}'.format(refs))
                         (hValue, hlabel)=refs
@@ -157,7 +156,7 @@ class hosPlot:
                         print('Key is:{0}, Value is:{1}'.format(key,value))
                 elif key == 'vLine':
                     vLine=True
-                    if value.__class__ == tuple:
+                    if isinstance(value, tuple):
                         refs=self._evaluatereferenceLines(key,value)
                         (vValue,vlabel)=refs
                     else:
