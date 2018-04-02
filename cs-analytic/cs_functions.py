@@ -15,7 +15,7 @@ import math as mt
 #from abc import ABCMeta, abstractmethod
 #-----------------------------------------------------#
 
-class hosSymbolic:
+class hosSymbolic(object):
     """
     Attributes:
     :c       phase velocit
