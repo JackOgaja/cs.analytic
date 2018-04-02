@@ -18,7 +18,7 @@ from matplotlib.ticker import AutoMinorLocator, MaxNLocator
 import os, sys, inspect
 #-----------------------------------------------------------------------------#
 
-class hosPlot:
+class hosPlot(object):
     """
     Attributes:
     :labels     legend labels
