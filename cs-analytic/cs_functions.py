@@ -76,6 +76,10 @@ class hosSymbolic(object):
         return (a,b,c,d)
 
     def PhaseError(self,arg):
+        """
+        Calculate phase error
+
+        """
         self.k  = arg
         cf = self.__calcconst()
         cs = self.__calcsin()
@@ -97,6 +101,10 @@ class hosSymbolic(object):
                 omegaSixth,omegaSixthTrad)
 
     def GroupVelocity(self,arg):
+        """
+        Compute Group velocity
+        """
+
         self.k  = arg; cc = self.__calccos()
         #--------------------------------------#
         # Calculate Symbolic group velocities: #
