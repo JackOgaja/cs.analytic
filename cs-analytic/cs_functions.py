@@ -125,6 +125,10 @@ class hosSymbolic(object):
                 groupVFourthTrad,groupVSixth,groupVSixthTrad)
 
     def aliasError(self,k1,k2):
+        """
+        alias error
+        """
+
         self.k1=k1; self.k2=k2
         #--------------------------------------#
         # Calculate Interaction coeffients:    #
