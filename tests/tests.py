@@ -2,7 +2,7 @@
 """
 ------------------------------
 This is a test script for the hosFunctions and hosGraphics module
-by: Jack
+by: Jack, 2015
 ------------------------------
 """
 
