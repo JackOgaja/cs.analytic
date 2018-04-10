@@ -8,10 +8,8 @@
 #
 #-----------------------------------------------------------------------------80
 
-# >> import initial modules <<
 import numpy as np
 import math as mt
-#--- Creating abstract classes for inheritance -------#
 #from abc import ABCMeta, abstractmethod
 #-----------------------------------------------------#
 
