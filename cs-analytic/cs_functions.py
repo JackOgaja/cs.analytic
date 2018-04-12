@@ -104,9 +104,9 @@ class hosSymbolic(object):
         """
 
         self.k  = arg; cc = self.__calccos()
-        #--------------------------------------#
-        # Calculate Symbolic group velocities: #
-        #--------------------------------------#
+        #--------
+        # Calculate Symbolic group velocities: 
+        #--------
         #- Second order
         groupVSecond = self.c*cc[0]
         groupVSecondTrad = self.c*cc[0]
