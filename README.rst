@@ -22,7 +22,22 @@ Uninstallation:
 To uninstall, type the following command::
 
   ~$ pip uninstall cs.analytic
-  
+
+Run and profile:
+================
+To run and profile the scripts type the following command::
+
+  ~$ profile tests/tests.py
+
+OR::
+
+  ~$ python -m cProfile tests/tests.py
+
+OR, import cProfile for individual functipons::
+
+  ~$ import cProfile
+  ~$ cProfile.run('main()')
+
 Features:
 =========
 
