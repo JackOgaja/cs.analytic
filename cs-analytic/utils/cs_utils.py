@@ -118,7 +118,7 @@ bp=[[b[i][j] for i in range(len(kt))] for j in range(len(k2))]
 #+=================================+#
 #-- Plot settings/Attributes---#
 plt = hg.hosPlot()  # call the plot utility
-plt.title='Some plot'
+plt.title='Test plot'
 plt.styles  = ['b-.','r--','k+'] #['b-.','r--','k+','kx','g-','k:']
 #plt.lwidth=[2,2,2,2,2]
 plt.labels  = ['2nd order']
