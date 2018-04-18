@@ -122,7 +122,7 @@ def setupDevel():
                             description  = "Utilities for Higher Order Conservative Schemes",
                             author       = "Jack Ogaja",
                             author_email = "jack.ogaja@gmail.com",
-                            url          = "http://github.com/Jaecq",
+                            url          = "http://bitbucket.com/JackOgaja",
                             packages     = ['Hos_devel'],
                             package_dir  = {'hos-analytic':'hos/hos_devel'},
                             )
