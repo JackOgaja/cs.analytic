@@ -1,2 +1,2 @@
  __version__ = '0.1-b1'
- author      = 'Jack Ogaja'
+ __author__  = 'Jack Ogaja'
