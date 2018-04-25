@@ -4,6 +4,6 @@
 Test run for Higher Order Schemes for Geophysical models
 """
 
-python tests/tests.py
+time python tests/tests.py
 
 
