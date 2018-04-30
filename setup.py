@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """
-   Copyright (c) 2017 Jack Ogaja
-   All Rights Reserved
-
    See LICENSE for details.
 
    HOS Analytic:
