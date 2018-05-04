@@ -23,7 +23,7 @@ def cleanDir(directory):
                 copyfile(os.path.join(directory, f), os.path.join(directory, f[:-5]))
 
 
-print("Starting clean.\n")
+print("Begin cleaning.\n")
 
 _Py_file_loc = os.path.dirname(os.path.realpath(__file__))
 _dist_dir = os.path.join(_Py_file_loc, "dist")
