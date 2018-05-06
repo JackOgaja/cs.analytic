@@ -1,1 +1,2 @@
-from hostools import __version__
+from cs.analytic import __version__
+
