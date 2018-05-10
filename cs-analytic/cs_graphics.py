@@ -40,6 +40,10 @@ class hosPlot(object):
     :xlabel     x-axis label
     :lgframe    legend box 'on' or 'off'
     :lgFontSize legend font size
+
+    :Methods
+    : Plotline
+    : PlotContour
     """
 
     def __init__(self):
