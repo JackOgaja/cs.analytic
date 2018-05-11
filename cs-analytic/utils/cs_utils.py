@@ -79,9 +79,9 @@ for i in range(len(k3)):
 print('LEN(KT) = {0}'.format(len(kt)))
 print(kt)
 #--------------------------#
-#+==============+#
-# Error objects +#
-#+==============+#
+#+============================+#
+# Error objects and instances +#
+#+============================+#
 hos     = hf.hosSymbolic()
 hos.dx  = dx
 hos.c   = c
