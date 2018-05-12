@@ -8,7 +8,7 @@ of Higher Order Schemes for Geophysical models
 # created:   Jack Ogaja <jack.ogaja'at'gmail.com>
 #
 # purpose:   module for analytic functions of
-#            Conservative HOS
+#            Conservative Higher Order Schemes applied in NWP models
 #
 #-----------------------------------------------------------------------------#
 
