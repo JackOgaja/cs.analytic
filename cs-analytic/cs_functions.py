@@ -206,6 +206,12 @@ class hosSymbolic(object):
     #----- (C) ------------#
     #----- effectiveRes ---#
 
+ def main():
+     """
+     main function
+     """
+     pass
+
     #------------------------------------------------------------------#
 
 #*** Make the module executable as a script******#
