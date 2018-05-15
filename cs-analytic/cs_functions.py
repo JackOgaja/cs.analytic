@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# module:    hos_functions
+# module:    cs_functions
 # created:   Jack Ogaja <jack.ogaja'at'gmail.com>
 #
 # purpose:   module for analytic functions of
