@@ -55,6 +55,9 @@ class hosSymbolic(object):
     preS6b = 25./(128.*3.)
     preS6c = 3./(128.*5.)
 
+    def __init__(self):
+        pass
+
     def __calcconst(self):
         coeff= self.c/self.dx
         return coeff
