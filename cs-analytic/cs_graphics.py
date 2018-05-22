@@ -81,7 +81,7 @@ class hosPlot(object):
         if self.xmin: pl.xlim(xmin=self.xmin)
         if self.xmax: pl.xlim(xmax=self.xmax)
 
-    def __consistency(self):
+    def _consistency(self):
         if len(self.styles) > len(self.y):
             errmsg1 = 'There are more plot styles than the plots!'
             self.__printError(errmsg1)
@@ -136,7 +136,7 @@ class hosPlot(object):
         ax11.set_ylabel(self.ylabel, fontsize=self.lblsize)
 
         #---- Evaluations ---#
-        cons=self.__consistency()
+        cons=self._consistency()
         if cons: sys.exit(cons)
 
         if kwargs:
