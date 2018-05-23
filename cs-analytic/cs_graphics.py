@@ -107,7 +107,7 @@ class hosPlot(object):
             for d in range(diff):
                 self.labels.append('plot'+str(len(self.labels)+1))
 
-    def __createDir(self):
+    def _createDir(self):
         scriptDir = os.getcwd()
         pltDir    = os.path.join(scriptDir, self.plotDir)
         if not os.path.isdir(pltDir):
@@ -193,7 +193,7 @@ class hosPlot(object):
         pl.draw()
 
         #---- Save the plot ---#
-        pdir=self.__createDir()
+        pdir=self._createDir()
         fileN = self.plotName+'.'+self.outFormat
         if self.savePlot:
             fig1.savefig(os.path.join(pdir, fileN), dpi=200)
