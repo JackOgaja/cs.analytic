@@ -258,6 +258,11 @@ class hosPlot(object):
         print('STOP : The script stops here')
         print('*'*10)
 
+    def main(self):
+        """
+        Main call
+        """
+
 #-----------------------------------------------------------------------------#
 #*** Make the module executable as a script******#
 if __name__ == "__main__":
