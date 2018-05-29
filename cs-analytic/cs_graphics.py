@@ -266,6 +266,8 @@ class hosPlot(object):
 #-----------------------------------------------------------------------------#
 #*** Make the module executable as a script******#
 if __name__ == "__main__":
+    #main()
+
     fname=__file__.split('/')
     print('\nThis is a test run for the \'{0}\' module.\n'
           'The test run is the simplest use of the module\n'
