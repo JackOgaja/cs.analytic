@@ -31,9 +31,9 @@ _config_dir = os.path.join(_Py_file_loc, "config")
 _sample_dir = os.path.join(_Py_file_loc, "sample")
 
 # Delete the distribution dir if it exists
-if os.path.exists(_dist_dir):
-    print("Removing dist directory: " + _dist_dir + "\n")
-    remove_tree(_dist_dir, verbose=1)
+#+if os.path.exists(_dist_dir):
+#+    print("Removing dist directory: " + _dist_dir + "\n")
+#+    remove_tree(_dist_dir, verbose=1)
 
 # Clean the config dir
 cleanDir(_config_dir)
