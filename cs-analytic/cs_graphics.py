@@ -69,7 +69,7 @@ class hosPlot(object):
         self.lgframe =None
         self.lgFontSize =10
 
-    def __plotSettings(self):
+    def _plotSettings(self):
         rc('text',usetex=True)                      # LaTeX support
         rc('font',family='serif',serif='cmr10')     # LaTeX Computer Modern font
                                                     # (save: raw strings r'...')
@@ -120,7 +120,7 @@ class hosPlot(object):
         self.y=daten
 
         #--- Update the settings -------#
-        self.__plotSettings()
+        self._plotSettings()
         (refLine,hLine,vLine)=(None,None,None)
         lw = []
 
