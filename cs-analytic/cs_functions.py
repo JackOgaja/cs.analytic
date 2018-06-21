@@ -69,7 +69,7 @@ class hosSymbolic(object):
         d = np.sin(5.*self.k*self.dx)
         return (a,b,c,d)
 
-    def __calccos(self):
+    def _calccos(self):
         a = np.cos(self.k*self.dx)
         b = np.cos(2.*self.k*self.dx)
         c = np.cos(3.*self.k*self.dx)
@@ -106,7 +106,7 @@ class hosSymbolic(object):
         Compute Group velocity
         """
 
-        self.k  = arg; cc = self.__calccos()
+        self.k  = arg; cc = self._calccos()
         #--------
         # Calculate Symbolic group velocities: 
         #--------
