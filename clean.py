@@ -26,9 +26,9 @@ def cleanDir(directory):
 print("Begin cleaning.\n")
 
 _Py_file_loc = os.path.dirname(os.path.realpath(__file__))
-_dist_dir = os.path.join(_Py_file_loc, "dist")
-_config_dir = os.path.join(_Py_file_loc, "config")
-_sample_dir = os.path.join(_Py_file_loc, "sample")
+#++_dist_dir = os.path.join(_Py_file_loc, "dist")
+#++_config_dir = os.path.join(_Py_file_loc, "config")
+#++_sample_dir = os.path.join(_Py_file_loc, "sample")
 
 # Delete the distribution dir if it exists
 #+if os.path.exists(_dist_dir):
