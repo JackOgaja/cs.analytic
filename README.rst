@@ -14,14 +14,15 @@ Installation:
 
 To install, type the following command::
 
-  ~$ pip install cs.analytic 
+  ~$ git clone https://github.com/JackOgaja/cs.analytic.git 
+  ~$ cd cs.analytic
 
 Uninstallation:
 ===============
 
 To uninstall, type the following command::
 
-  ~$ pip uninstall cs.analytic
+  ~$ rm -rf cs.analytic
 
 Run and profile:
 ================

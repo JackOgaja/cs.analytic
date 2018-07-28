@@ -26,6 +26,7 @@ class hosSymbolic(object):
     :preS6b  fourth coefficient
     :preS6c  fifth coefficient
 
+    Funtions:
     :omegaSeond      Symmetric Second order (QCHOS)
     :omegaSecondTrad Traditional Second order (HOS)
     :omegaFourth     Symmetric Fourth order (QCHOS)
@@ -69,7 +70,7 @@ class hosSymbolic(object):
         d = np.sin(5.*self.k*self.dx)
         return (a,b,c,d)
 
-    def _calccos(self):
+    def __calccos(self):
         a = np.cos(self.k*self.dx)
         b = np.cos(2.*self.k*self.dx)
         c = np.cos(3.*self.k*self.dx)
@@ -212,6 +213,7 @@ class hosSymbolic(object):
  def main():
      """
      main function
+     add something here...
      """
      pass
 

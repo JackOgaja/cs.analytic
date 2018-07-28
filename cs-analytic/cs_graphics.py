@@ -69,7 +69,7 @@ class hosPlot(object):
         self.lgframe =None
         self.lgFontSize =10
 
-    def _plotSettings(self):
+    def __plotSettings(self):
         rc('text',usetex=True)                      # LaTeX support
         rc('font',family='serif',serif='cmr10')     # LaTeX Computer Modern font
                                                     # (save: raw strings r'...')
@@ -81,7 +81,7 @@ class hosPlot(object):
         if self.xmin: pl.xlim(xmin=self.xmin)
         if self.xmax: pl.xlim(xmax=self.xmax)
 
-    def _consistency(self):
+    def __consistency(self):
         if len(self.styles) > len(self.y):
             errmsg1 = 'There are more plot styles than the plots!'
             self.__printError(errmsg1)
@@ -107,7 +107,7 @@ class hosPlot(object):
             for d in range(diff):
                 self.labels.append('plot'+str(len(self.labels)+1))
 
-    def _createDir(self):
+    def __createDir(self):
         scriptDir = os.getcwd()
         pltDir    = os.path.join(scriptDir, self.plotDir)
         if not os.path.isdir(pltDir):
